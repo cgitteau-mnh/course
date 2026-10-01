@@ -1,0 +1,18 @@
+version: 2
+
+exposures:
+  - name: executive_dashboard
+    label: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://6dee65ac.us2a.app.preset.io/superset/dashboard/8/?edit=true&native_filters_key=0_G2D4Ous3O03Mo_0tnFNQ
+    description: Executive Dashboard about Airbnb listings and hosts
+
+
+    depends_on:
+      - ref('dim_listings_w_hosts')
+      - ref('mart_fullmoon_reviews')
+
+    owner:
+      name: Clément Gitteau
+      email: clement.gitteau@mnh.fr
