@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+# Source this file before running dbt:
+#   . set-env.sh
+#   or . ../set-env.sh if you run it from the airbnb/ folder.
+# !! Do this every time you open a new terminal, as env vars are not persisted !!
+
+export SNOWFLAKE_ACCOUNT="luegdzt-re73045"
+export DBT_USER="dbt"
+export PRIVATE_KEY_PASSPHRASE="q"
+export PRIVATE_KEY="-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIFNTBfBgkqhkiG9w0BBQ0wUjAxBgkqhkiG9w0BBQwwJAQQX89KHv+ZEJpNGeM7
+HgxESQICCAAwDAYIKoZIhvcNAgkFADAdBglghkgBZQMEASoEEPVDvJqeoFDac733
+XnYHKM8EggTQuGVwGkJR572oPm4ejas+zzS+gjIYXVrWIQgJMj96twT1krsCTqYx
+C33id24Zz68Bxi698mqzIKzq7afdGZocAC9kG+zJp3aasjBZ3+OFG+HJUegYmb+0
+liDfHGb3MOMdAsRVQbxAKSTQ9+KGYS5cL98zQ0OaL9TZ3IkxvI0WkvBjjC/7ZXQk
+csGX3UT3YK/60oFHeSewnrphNA7aLifWTUIUJZ34FZNQLUCxieXl36jtjWDcVaVC
+r0oBFqnAh9Fs0Pf4Nodyb+Ub/TJdQ00mmG1EZY5Ltrad5XlsnNDFJ19Vy7jDK690
+AjVIsLtVWvWUWyvS3W8pqUqNUfeS4ixtQXx7jngtuxdbKh9IF9Anj7n82hPft9mn
+Sx7Nps6+dyVqE0Pgcqlz6xEL3uGdeue97c4gtDU4atIrF4sR6vAKAJGw6T0S+XUI
+t7zHEnCfZPbIy/BJ5aruxEkCOzEBb8urLX6JmRrwkd7S5rCs+oMfOIWqfu6tLuep
+iyh683n8H+vobOmub/wBtU+RkpndCO5XFzgm/hZ50ItzS+u/MvEnj/tOK6MqpOpj
+c2C9DivSAG0VYytRRKvn+Dl3ND5Pzes8p1t4Uz2jq2sw8vqQInjFOHpOdQlYnwV3
+m8kEEb3UWdEHeobJ/Tlm0trzQBeeQypDoyVTRd8Ry9YxMOv5bLtRUk+2TW/HyhAM
+v8VPB7vvTkwwgZRpNwmDGwcst6SIczE8SYvunCekWFVD6FUHwOdS7/v2NB33nXIk
+qwht3XxMMVtefgJGp+4ChpcfZj1AAOrIIahx125kLewCOAQ5h1+061Zb/KdqVOUk
+hXqqtrS+n8nkBBqEEBowqp75gz3yGaPnFs7oXinUoDSzWzKCUNwm8vxO7lyJyhvS
+irjvii7hoNNe1dlCASj0CrIyL0M3crCms414Y8P9v+vybzZ36LBCB0bqQ8o1C9G5
+fuPyjzt3p+/LP64bjnfr/O6SVhS7goTfcxvcVei0u6aWtNuxHAjR89pzsYSlIExF
+mpMgoX83kKt9vEtqtQywTuWV+SKbUVX01aegGhBICCb2anPfIuDJSCrnL4WtVb7y
+e9uxArpFUbUAUCz4e3qDXs592gFyTM1pGHvoVyvlv39TrWtx94x84v5LKTEV0Rff
+qL5GNIYMeDoXSwUXad6mnufuFgls8TU/6hed7tV8nhDZu2NjFxXhiHk1MwMNAGKp
+/MgAX1Y/rbboLQtv52ZLk8aCxoyagbov/HI5yu0rgRKPwGUJOs+QgVv9ITFyKwt9
+Vb/kYx+2Qys9dKxN6i6IDbSieiBB4MH57RNsSwkvDDUNa1ZI7Uiymdz9tJly9G0P
+qyqoyz3EGWL8Qvhhemhy3Riu4tkKxG1p/yo4UjOMJBaCJIUj2EZLk918I/cze9+y
+nMNHPV0tZQn9KENvIVYG8qdmxt1y9bVmac+2AssRxTEvIYOtHxLt74DBHBO3j9wX
+5dUP4qlDRDawndNjYfFraSQKOlCW8n9NcUn5tSqst978fmpbznzXprBvSCx7PdNE
+vjIMHUP/aRmXNlwFKdnGxsTCjOgYLUp/+JBEeN7cjbhhsJH+7ZLc09KvG3t0Bu7+
+wImRybsm02wuAHkslXcyNaBRQ7EnZvVtCO+Z6y/lo2iRdCMDi4sMtZI=
+-----END ENCRYPTED PRIVATE KEY-----
+"
